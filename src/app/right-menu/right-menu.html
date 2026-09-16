@@ -1,4 +1,4 @@
-<div class="w-[80vw] p-5 min-h-screen grid grid-cols-4 grid-rows-[auto_auto_1fr_1fr_1fr_auto_auto]">
+<div class="w-[70vw] p-5 min-h-screen grid grid-cols-4 grid-rows-[auto_auto_1fr_1fr_1fr_auto_auto]">
 
   @for (product of filteredProducts; track product.id) {
 
@@ -9,7 +9,7 @@
 
       <p class="h-12 text-sm">{{ product.description }}</p>
 
-      <p>{{ product.price }} €</p>
+      <p class="mt-5">{{ product.price }} €</p>
       <button class="cursor-pointer bg-blue-400 w-40 rounded-2xl mt-5 hover:text-white hover:bg-blue-700" (click)="addToCart(product)">Add to cart</button>
     </div>
 

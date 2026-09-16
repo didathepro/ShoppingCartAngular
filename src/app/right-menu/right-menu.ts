@@ -18,7 +18,7 @@ export class RightMenu {
     this.cartService.addToCart(product);
   }
   
-//Get items for selected category
+//Filter items for selected category
   get filteredProducts() {
 
     const category = this.categoryService.selectedCategory();
