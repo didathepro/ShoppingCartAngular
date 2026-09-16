@@ -1,0 +1,34 @@
+<ul class="flex flex-col gap-5 w-[20vw] h-screen bg-blue-300 px-10 py-15 text-black font-bold">
+
+  <li
+    class="cursor-pointer hover:text-white"
+    (click)="categoryService.selectCategory('all')">
+    ALL
+  </li>
+
+  <li
+    class="cursor-pointer hover:text-white"
+    (click)="categoryService.selectCategory('pizza')">
+    PIZZA
+  </li>
+
+  <li
+    class="cursor-pointer hover:text-white"
+    (click)="categoryService.selectCategory('burger')">
+    BURGERS
+  </li>
+
+
+  <li
+    class="cursor-pointer hover:text-white"
+    (click)="categoryService.selectCategory('chicken')">
+    CHICKEN
+  </li>
+
+  <li
+    class="cursor-pointer hover:text-white"
+    (click)="categoryService.selectCategory('dessert')">
+    DESSERTS
+  </li>
+
+</ul>
